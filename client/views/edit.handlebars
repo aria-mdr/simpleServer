@@ -1,0 +1,18 @@
+<div style="margin: 30px auto; max-width: 400px">
+                <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Name</span>
+                    <input id="addName" placeholder={{animal.name}} type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Kind</span>
+                    <input id="addKind" placeholder={{animal.kind}} type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Age</span>
+                    <input id="addAge" placeholder={{animal.age}} type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                </div>
+    <button type="button" class="btn btn-primary" id="edit" data-id={{animal._id}}>Update</button>
+
+    <script src="/editScript.js"></script>
+</div>
+
